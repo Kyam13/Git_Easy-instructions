@@ -33,3 +33,15 @@ pullrequest->編集リクエストのような機能
 
 git push -u orgin [ブランチ名]
 ->先ほど作成したbranchをpushするコマンドライン
+
+Issuesについて
+課題管理機能
+Issue->問題、課題つまりIssues機能とはプロジェクトやソースコードの課題を管理するための機能
+https://seleck.cc/647　＜ー詳細はここで
+簡単にurlの内容を下に書く
+Issue tagを押す->new issue-> 解決できるpull requestsやコメントを書く->close issue
+
+その他の機能について
+Assignee機能 -> Issueに担当者を割り当てる機能
+Milestone機能 -> Issueに締め切りをつける機能(マイルストンを先に置いて、それにIssueを紐付けする)
+Label機能 -> その名の通りIssueにラベルを付けて分類する機能
