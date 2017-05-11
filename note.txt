@@ -22,3 +22,14 @@ git branch [ブランチ名] -> ブランチの作成
 git branch -> 存在するブランチの一覧を確認する
 
 git checkout [ブランチ名] -> ブランチを切り替える
+
+pull requestsの作り方
+pullrequest->編集リクエストのような機能
+企業で一般的に使われるPull Requestの流れ
+1.自分が担当する実装用の、branchを作成する
+2.変更点をコミット
+3.そのbranchを元にPull Requestを作成する
+4.レビュアーはPull Reqeustを確認し、問題なければ元のブランチに反映(マージ)する
+
+git push -u orgin [ブランチ名]
+->先ほど作成したbranchをpushするコマンドライン
