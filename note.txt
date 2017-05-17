@@ -32,7 +32,16 @@ pullrequest->編集リクエストのような機能
 4.レビュアーはPull Reqeustを確認し、問題なければ元のブランチに反映(マージ)する
 
 git push -u orgin [ブランチ名]
+
 ->先ほど作成したbranchをpushするコマンドライン
+
+ディレクトリがある場合の流れgitの主な流れ
+1.githubで同じ名前のリポジトリィを作る
+(リポジトリィがsenkeiとする)
+2.git remote add origin https://github.com/Kyam13/senkei.git
+3.git push -u origin master
+
+
 
 Issuesについて
 課題管理機能
